@@ -7,16 +7,23 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sp_ExitButton</sprite>
+    <sprite>sprites\sp_NewGameButton</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\br_EmptySkies</background>
+    <background>background\bk_EmptySkies</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_MouseDown.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_ExitButton</object>
+    <object>objects\obj_NewGameButton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
+    <room>rooms\rm_Game</room>
+    <room>rooms\rm_Battle</room>
     <room>rooms\rm_Credits</room>
   </rooms>
   <help>
