@@ -5,9 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_ExitButton</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\br_EmptySkies</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_ExitButton</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_MainMenu</room>
+    <room>rooms\rm_Credits</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
