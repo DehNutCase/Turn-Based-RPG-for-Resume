@@ -17,8 +17,14 @@
     <script>scripts\scr_MouseDown.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_ExitButton</object>
-    <object>objects\obj_NewGameButton</object>
+    <objects name="Templates">
+      <object>objects\obj_character_player</object>
+      <object>objects\obj_character_enemy</object>
+    </objects>
+    <objects name="Buttons">
+      <object>objects\obj_NewGameButton</object>
+      <object>objects\obj_ExitButton</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
